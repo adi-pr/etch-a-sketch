@@ -3,16 +3,47 @@
     margin: 0;
 }
 
+body {
+    background-color: #C331AF;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #F788E8;
+}
+
+nav button {
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    background-color: #F53DDC;
+    border: none;
+}   
+
+.grid-sizes {
+    display: flex;
+    padding-right: 730px;
+    gap: 10px;
+}
+
+.modes {
+    display: flex;
+    gap: 10px;
+}
+
 .grid-container {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
 #grid {
     display: grid;
-    width: 500px;
-    height: 500px;
-    background-color: var(--secondary-light);
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
